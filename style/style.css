@@ -1,0 +1,159 @@
+body {
+ font-family: 'Pacifico', cursive;
+ padding: 0;
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ background-color: #F7F7F7;
+}
+html, body {height:100%;}
+
+.joggol{
+  margin-top: auto;
+  margin-left: auto;
+}
+.jogzag1{  
+  width: 33%;
+  float: left;
+}
+.jogzag2{  
+  width: 33%;
+  float: left;
+}
+.jogzag3{  
+    width: 33%;
+  float: right;
+}
+.contato{
+
+}
+.alightcontent{
+  margin:0 auto;
+  width: 80%;
+  height: 100%;
+  background-color: green;
+}
+/*START HEADER*/
+li {
+  display: inline;
+  text-decoration: none;
+  color:black;
+}
+a:link,a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+header{
+  width: 100%;
+  height: 120px;
+}
+.logoapp{
+  margin-top: 2%;
+  margin-left: 0.75%;
+  height: 100%;
+  width: 9.25%;
+  background-color:#F7F7F7;
+  float: left;
+}
+.menutop{
+  height: 100%;
+  width: 90%;
+  float: left;
+  font-size: 30px;
+  background-color: #F7F7F7;
+}
+.liNav{
+  margin-right: 90px;
+  margin-left: 90px;
+  cursor:pointer;
+}
+.liNav:hover{
+  transition: 0.2s;
+  color:red;
+  border-bottom: 2px solid blue;
+}
+.centralize{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centralize-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menuupper{
+   margin-top: 45px;
+}
+/*END HEADER*/
+
+/* Alinhamento Elenco - START*/
+
+.jogadores{
+  text-align: center;
+}
+/* Alinhamento Elenco - END*/
+
+
+/* Alinhamento Videos - START*/
+
+.videos{
+  text-align: center;
+}
+.videos > iframe{
+    background: black;
+    border: none;
+    height: 450px;
+    width: 900px;
+}
+/* Alinhamento Videos - END*/
+
+
+#conteudo{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 1%;
+  background: url("../img/fundo.png")no-repeat center top;
+
+  color: #8D92AF; 
+  text-shadow: black 0.1em 0.1em 0.2em}
+
+}
+
+/*
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+*/
+/*FOOTER*/
+
+footer .titulo {
+  margin-top: 20px;
+  color: #7b7967;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+
+footer p {
+  color: #7b7967;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+/*footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    align-content:space-between;
+}/*
